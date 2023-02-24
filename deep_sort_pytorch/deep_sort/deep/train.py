@@ -152,7 +152,7 @@ def test(epoch):
         }
         if not os.path.isdir('checkpoint'):
             os.mkdir('checkpoint')
-        torch.save(checkpoint, './checkpoint/ckpt.t7')
+        torch.save(checkpoint, 'https://drive.google.com/drive/folders/1mQITIfy4IIFJZwOZxMszLEMk307fLPrN?usp=share_link/ckpt.t7')
 
     return test_loss/len(testloader), 1. - correct/total
 
