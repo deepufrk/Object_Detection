@@ -1,1 +1,1 @@
-libtk==8.6
+libtk8.6
